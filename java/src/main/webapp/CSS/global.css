@@ -1,0 +1,208 @@
+.form-signup {
+    padding: 40px;
+    border: blue 2px solid;
+    border-radius: 6px;
+    background-color: #fbfbfb;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+}
+
+.form-signin {
+    padding: 50px;
+    border: blue 2px solid;
+    border-radius: 6px;
+    background-color: #fbfbfb;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+}
+
+.form-start-style {
+    padding: 40px;
+    border: blue 2px solid;
+    border-radius: 6px;
+    background-color: #fbfbfb;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-signup {
+    background: #e80d33;
+    position: relative;
+    margin: 20px 0px;
+    padding: 0.65em;
+    float: inherit;
+    width: 100%;
+    color: #eff5f9;
+    border-color: rgba(255, 255, 255, 0.34);
+}
+.btn-signin {
+    background: #e80d33;
+    position: relative;
+    margin: 20px 0px;
+    padding: 0.65em;
+    float: inherit;
+    width: 100%;
+    color: #eff5f9;
+    border-color: rgba(255, 255, 255, 0.34);
+}
+
+
+.password-input-style {
+    position: relative;
+    margin: 20px 0px 25px 0px;
+    padding: 0.65em;
+    float: inherit;
+    width: 100%;
+    color: #626567;
+    border-color: rgba(255, 255, 255, 0.34);
+}
+
+.username-input-style {
+    position: relative;
+    margin: 20px 0px 10px;
+    padding: 0.65em;
+    float: inherit;
+    width: 100%;
+    color: #626567;
+    border-color: rgba(255, 255, 255, 0.34);
+}
+
+.role-balance-style {
+    position: relative;
+    margin: 20px 0px 10px;
+    padding: 0.65em;
+    float: inherit;
+    width: 100%;
+    color: #626567;
+    border-color: rgba(255, 255, 255, 0.34);
+}
+
+/* ---------------------- HEADER STYLE -------------------- */
+
+.header {
+    position: relative;
+    text-align: center;
+    padding: 40px 20px 0 20px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 5px 20px;
+    background: #132440;
+    animation-name: topToBottom;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 1.25s;
+    text-decoration: none;
+}
+
+@keyframes topToBottom {
+    0% {transform: translateY(-100%);}
+    100% {transform: translateY(0);}
+}
+
+.header-logo {
+    flex: 1;
+    text-align: left;
+    display: block;
+    font-size: 1.5em;
+    align-self: center;
+    color: white;
+}
+.header-menu {
+    flex: 1;
+    min-width: 300px;
+}
+.header-login {
+    flex: 1;
+    text-align: right;
+    display: block;
+    font-size: .8em;
+    align-self: center;
+    padding-right: 10px;
+}
+.header-login input {
+    padding-left: 5px;
+    outline: none;
+}
+.header-top > ul {
+    display: flex;
+    text-align: center;
+    /* padding: 10px; */
+    margin: 0 0;
+    text-decoration: none;
+}
+.login-button {
+    padding: 0 5px;
+    margin: 0 5px;
+}
+.header-top li {
+    display: inline-block;
+    color: white !important;
+    padding: 0 10px;
+    text-decoration: none;
+}
+.header-logo,
+.header-login {
+    min-width: 180px;
+}
+.header-menu a:focus,
+.header-menu a:hover {
+    border-bottom: 1px solid white;
+}
+
+/* ----------------------- FOOTER ------------------------- */
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.help_footer {
+    min-height: 95%;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 40px;
+    padding: 8px 0;
+    background: #db8270;
+}
+.footflexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.footbox {
+    color: #fff;
+    font-size: .8em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
