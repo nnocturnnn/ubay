@@ -18,7 +18,7 @@ public class CreateLot {
     public String createLot(@NotNull NewUserDTO user) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException, SQLException {
         UserDAO userDAO = new UserDAO();
         userDAO.getConnection();
-        if (userDAO.create(user.getLogin(), user.getPassword(), user.getBalance(), user.getUserRole())) {
+        if (userDAO.create(user.getLogin(), user.getPassword(), user.getBalance(), user.getUserRole(),user.getEmail())) {
             return "/mainPage";
         }
         else {

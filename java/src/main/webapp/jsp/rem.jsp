@@ -1,11 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: dyanchuk
-  Date: 1/2/21
-  Time: 10:44 PM
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <meta charset="utf-8">
@@ -46,15 +38,9 @@
         <input class="form-styling" style="display: none" type="text" name="type" value="signin"/>
         <label for="loginLogin"></label>
         <input id="loginLogin" class="form-styling username-input-style" type="text" placeholder="Username" name="login" required/>
-        <label for="passwordLogin"></label>
-        <div>
-            <input id="passwordLogin" class="form-styling password-input-style" type="password" placeholder="Password" autocomplete="on"
-                   name="password" required/>
-            <span toggle="#passwordLogin" class="fa fa-fw fa-eye field-icon toggle-password"></span>
-        </div>
         <input class="btn-signin" type="submit" value="Sign in">
         <div>
-            <p><a href="/ubay/signUp"> Sign Up</a><a href="/ubay/rem">Remember password</a></p>
+            <p><a href="/ubay/signUp"> Sign Up</a></p>
         </div>
     </form>
 

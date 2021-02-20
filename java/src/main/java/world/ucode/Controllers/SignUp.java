@@ -26,7 +26,7 @@ public class SignUp extends HttpServlet {
     public String signUp(@NotNull NewUserDTO user) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException, SQLException {
         UserDAO userDAO = new UserDAO();
         userDAO.getConnection();
-        if (userDAO.create(user.getLogin(), user.getPassword(), user.getBalance(), user.getUserRole())) {
+        if (userDAO.create(user.getLogin(), user.getPassword(), user.getBalance(), user.getUserRole(),user.getEmail())) {
             EmailSend.run(user.getEmail(),user.getLogin(),user.getPassword());
             return "/mainPage";
         }

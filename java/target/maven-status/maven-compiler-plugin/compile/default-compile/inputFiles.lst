@@ -1,8 +1,9 @@
-/Users/asydoruk/Desktop/ubay2/src/main/java/world/ucode/Controllers/CreateLot.java
-/Users/asydoruk/Desktop/ubay2/src/main/java/world/ucode/Controllers/SignUp.java
-/Users/asydoruk/Desktop/ubay2/src/main/java/world/ucode/Model/UserDto.java
-/Users/asydoruk/Desktop/ubay2/src/main/java/world/ucode/Controllers/SignIn.java
-/Users/asydoruk/Desktop/ubay2/src/main/java/world/ucode/Hash/HashPassword.java
-/Users/asydoruk/Desktop/ubay2/src/main/java/world/ucode/Controllers/Start.java
-/Users/asydoruk/Desktop/ubay2/src/main/java/world/ucode/CRUD/UserDAO.java
-/Users/asydoruk/Desktop/ubay2/src/main/java/world/ucode/Model/NewUserDTO.java
+/Users/asydoruk/Desktop/ubay/java/src/main/java/world/ucode/Controllers/CreateLot.java
+/Users/asydoruk/Desktop/ubay/java/src/main/java/world/ucode/CRUD/UserDAO.java
+/Users/asydoruk/Desktop/ubay/java/src/main/java/world/ucode/Model/UserDto.java
+/Users/asydoruk/Desktop/ubay/java/src/main/java/world/ucode/Email/EmailSend.java
+/Users/asydoruk/Desktop/ubay/java/src/main/java/world/ucode/Hash/HashPassword.java
+/Users/asydoruk/Desktop/ubay/java/src/main/java/world/ucode/Model/NewUserDTO.java
+/Users/asydoruk/Desktop/ubay/java/src/main/java/world/ucode/Controllers/SignUp.java
+/Users/asydoruk/Desktop/ubay/java/src/main/java/world/ucode/Controllers/Start.java
+/Users/asydoruk/Desktop/ubay/java/src/main/java/world/ucode/Controllers/SignIn.java

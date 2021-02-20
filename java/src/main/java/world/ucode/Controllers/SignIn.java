@@ -18,6 +18,19 @@ public class SignIn {
     public String signin() {
         return "/signIn";
     }
+
+    @RequestMapping(value = "/rem", method = RequestMethod.GET)
+    public String remGet() {
+        return "/rem";
+    }
+
+    @RequestMapping(value = "/signIn", method = RequestMethod.POST)
+    public String remPOST(UserDto user) throws SQLException, ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
+        userDAO.getConnection();
+        userDAO.rememberPass(user.getLogin());
+        return "/signUp";
+    }
+
     @RequestMapping(value = "/signIn", method = RequestMethod.POST)
     public String chekLogin(UserDto user) throws SQLException, ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
         userDAO.getConnection();
