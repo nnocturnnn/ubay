@@ -16,19 +16,19 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `Lot`
+-- Table structure for table `User`
 --
 CREATE DATABASE ubay;
 USE ubay;
-DROP TABLE IF EXISTS `Lot`;
+DROP TABLE IF EXISTS `User`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `Lot` (
-  `title` text NOT NULL ,
-  `startPrice` double NOT NULL,
-  `bidStep` double NOT NULL,
-  `duration` int NOT NULL,
-  `description` text,
+CREATE TABLE `User` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `login` text NOT NULL,
+  `password` text NOT NULL,
+  `balance` int NOT NULL,
+  `role` text,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
