@@ -2,16 +2,11 @@ package world.ucode.Model;
 
 import javax.management.relation.Role;
 
-public class NewUserDTO {
+public class NewUserDAO {
     private String Login;
-    private String Email;
     private String Password;
     private Integer balance;
     private String UserRole;
-
-    public String getEmail() {
-        return Email;
-    }
 
     public Integer getBalance() {
         return balance;
@@ -43,9 +38,5 @@ public class NewUserDTO {
 
     public void setLogin(String login) {
         Login = login;
-    }
-
-    public void setEmail(String email) {
-        Email = email;
     }
 }

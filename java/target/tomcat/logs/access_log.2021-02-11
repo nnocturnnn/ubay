@@ -1,8 +1,0 @@
-0:0:0:0:0:0:0:1 - - [11/Feb/2021:00:10:12 +0200] "GET /ubay/ HTTP/1.1" 200 1982 http-bio-8080-exec-1 666
-0:0:0:0:0:0:0:1 - - [11/Feb/2021:00:10:12 +0200] "GET /js/start.js HTTP/1.1" 404 - http-bio-8080-exec-2 0
-0:0:0:0:0:0:0:1 - - [11/Feb/2021:00:10:53 +0200] "GET /ubay/signIn HTTP/1.1" 200 2679 http-bio-8080-exec-3 40
-0:0:0:0:0:0:0:1 - - [11/Feb/2021:00:11:06 +0200] "GET /ubay/signIn?type=signin&login=Leka&password=1234567 HTTP/1.1" 200 2679 http-bio-8080-exec-4 1
-0:0:0:0:0:0:0:1 - - [11/Feb/2021:00:12:06 +0200] "GET /ubay/ HTTP/1.1" 200 1982 http-bio-8080-exec-6 2
-0:0:0:0:0:0:0:1 - - [11/Feb/2021:00:12:06 +0200] "GET /js/start.js HTTP/1.1" 404 - http-bio-8080-exec-7 0
-0:0:0:0:0:0:0:1 - - [11/Feb/2021:00:12:34 +0200] "GET /ubay/signUp HTTP/1.1" 200 3482 http-bio-8080-exec-8 36
-0:0:0:0:0:0:0:1 - - [11/Feb/2021:00:12:52 +0200] "POST /ubay/signUp HTTP/1.1" 200 2648 http-bio-8080-exec-9 335

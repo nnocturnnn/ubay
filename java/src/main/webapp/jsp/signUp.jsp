@@ -43,11 +43,9 @@
 </header>
 
     <form class="form-signup form-signup-left" id="formSignUp" action="/ubay/signUp" method="POST" name="form">
-        
         <div class="login-input">
             <label for="loginSignUp"></label>
             <input id="loginSignUp" class="form-styling username-input-style" type="text" name="login" placeholder="Username" required autofocus/>
-            <input id="loginSignUp" class="form-styling username-input-style" type="email" name="email" placeholder="Email" required autofocus/>
             <label for="passwordSignUp"></label>
         </div>
         <div class="password-input">
@@ -75,8 +73,6 @@
             <p>Or <a href="/ubay/signIn">Sign In</a> </p>
         </div>
 </form>
-
-
 <footer>
     <div class="footer-back"></div>
     <div class="footflexbox page">

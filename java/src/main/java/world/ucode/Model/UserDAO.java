@@ -2,7 +2,7 @@ package world.ucode.Model;
 
 import org.jetbrains.annotations.NotNull;
 
-public class UserDto {
+public class UserDAO {
     private String login;
     private String password;
 

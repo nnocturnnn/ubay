@@ -73,8 +73,6 @@
             <p>Or <a href="/ubay/signIn">Sign In</a> </p>
         </div>
 </form>
-
-
 <footer>
     <div class="footer-back"></div>
     <div class="footflexbox page">
